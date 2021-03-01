@@ -1,0 +1,38 @@
+#Intellij Idea
+.idea
+*.iml
+
+# IDE yarn dlx pnpify
+/.vim
+/.vscode
+
+# Log Files
+*.log
+
+# Yarn Zero Installs
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Compiled Typescript
+**/*.d.ts
+**/*.js
+**/*.d.ts.map
+**/*.js.map
+
+.tsbuildinfo
+
+# Allow ok js files
+!.pnp.js
+!**/.eslintrc.js
+
+
+# Mac file system
+.DS_Store
+*.tsbuildinfo
+node_modules
+
+.env

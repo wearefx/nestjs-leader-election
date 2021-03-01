@@ -1,0 +1,26 @@
+---
+default:
+  image: registry.fxdigital.uk/fxd-dev-util/ci-images:node
+
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  script:
+    - yarn --immutable
+    - make build
+  artifacts:
+    untracked: true
+    expire_in: 3 days
+
+lint:
+  stage: build
+  script:
+    - make lint
+
+test:
+  stage: test
+  script:
+    - make test

@@ -1,0 +1,90 @@
+{
+  "name": "@fxdigital/nestjs-leader-election",
+  "version": "0.0.0",
+  "description": "Adds quasi-Raft Consensus leader election to NestJs microservice instances using a Redis broker.",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Adam Rann",
+      "email": "adam+npm@fxdigital.uk",
+      "url": "https://fxdigital.uk"
+    },
+    {
+      "name": "Lorelei Aurora",
+      "email": "iam@l5i.me",
+      "url": "https://l5i.me"
+    }
+  ],
+  "main": "lib/index.js",
+  "module": "lib/index.ts",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "homepage": "https://github.com/wearefx/nestjs-leader-election",
+  "bugs": {
+    "url": "https://github.com/wearefx/nestjs-leader-election/-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wearefx/nestjs-leader-election.git"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": "^12.18.3"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "yarn commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "yarn lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{json,md,yml,yaml}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "test": "yarn jest",
+    "build": "yarn tsc -b"
+  },
+  "dependencies": {
+    "@nestjs/common": "^7.6.13",
+    "@nestjs/config": "^0.6.3",
+    "@nestjs/schedule": "^0.4.2",
+    "handy-redis": "^2.2.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@commitlint/prompt-cli": "^11.0.0",
+    "@fxd-dev-util/eslint-config-base": "^1.0.0",
+    "@types/jest": "^26.0.20",
+    "@types/prettier": "^2.1.6",
+    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "@typescript-eslint/parser": "^4.14.2",
+    "eslint": "^7.19.0",
+    "eslint-import-resolver-node": "^0.3.4",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "husky": "^4.3.8",
+    "jest": "^26.6.3",
+    "lint-staged": "^10.5.4",
+    "prettier": "2.1.1",
+    "ts-jest": "^26.5.2",
+    "typescript": "4.1.3"
+  }
+}
