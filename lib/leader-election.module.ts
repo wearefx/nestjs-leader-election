@@ -1,16 +1,16 @@
 import { DynamicModule, Global, Module } from "@nestjs/common";
 import { ScheduleModule } from "@nestjs/schedule";
+import { HeartbeatService } from "./Heartbeat.service";
 import { LeaderElectionHelper } from "./LeaderElectionHelper";
 import { RedisClientService } from "./RedisClient.service";
 
 @Global()
 @Module({
   imports: [ScheduleModule.forRoot()],
-  providers: [LeaderElectionHelper],
+  providers: [LeaderElectionHelper, RedisClientService, HeartbeatService],
   exports: [LeaderElectionHelper],
 })
 export class LeaderElectionModule {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   static forRoot(redisConfig: {
     host: string;
     port: number;
@@ -25,11 +25,22 @@ export class LeaderElectionModule {
           useValue: new RedisClientService(redisConfig),
         },
         {
-          provide: LeaderElectionHelper,
-          useFactory: (): LeaderElectionHelper => {
-            return new LeaderElectionHelper();
+          provide: HeartbeatService,
+          useFactory: (
+            redisClientService: RedisClientService
+          ): HeartbeatService => {
+            return new HeartbeatService(redisClientService);
           },
-          inject: [LeaderElectionHelper],
+          inject: [RedisClientService],
+        },
+        {
+          provide: LeaderElectionHelper,
+          useFactory: (
+            heartbeatService: HeartbeatService
+          ): LeaderElectionHelper => {
+            return new LeaderElectionHelper(heartbeatService);
+          },
+          inject: [HeartbeatService],
         },
       ],
       exports: [LeaderElectionHelper],
