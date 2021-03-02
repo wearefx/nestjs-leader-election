@@ -1,6 +1,7 @@
 import { DynamicModule, Global, Module } from "@nestjs/common";
 import { ScheduleModule } from "@nestjs/schedule";
 import { LeaderElectionHelper } from "./LeaderElectionHelper";
+import { RedisClientService } from "./RedisClient.service";
 
 @Global()
 @Module({
@@ -19,6 +20,10 @@ export class LeaderElectionModule {
     return {
       module: LeaderElectionModule,
       providers: [
+        {
+          provide: RedisClientService,
+          useValue: new RedisClientService(redisConfig),
+        },
         {
           provide: LeaderElectionHelper,
           useFactory: (): LeaderElectionHelper => {
