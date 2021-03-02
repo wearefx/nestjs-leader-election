@@ -667,8 +667,10 @@ __metadata:
     "@nestjs/common": ^7.6.13
     "@nestjs/config": ^0.6.3
     "@nestjs/schedule": ^0.4.2
+    "@types/cron": ^1.7.2
     "@types/jest": ^26.0.20
     "@types/prettier": ^2.1.6
+    "@types/uuid": ^8.3.0
     "@typescript-eslint/eslint-plugin": ^4.14.2
     "@typescript-eslint/parser": ^4.14.2
     eslint: ^7.19.0
@@ -681,8 +683,10 @@ __metadata:
     jest: ^26.6.3
     lint-staged: ^10.5.4
     prettier: 2.1.1
+    rxjs: ^6.6.6
     ts-jest: ^26.5.2
     typescript: 4.1.3
+    uuid: ^8.3.2
   languageName: unknown
   linkType: soft
 
@@ -1043,6 +1047,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/cron@npm:^1.7.2":
+  version: 1.7.2
+  resolution: "@types/cron@npm:1.7.2"
+  dependencies:
+    "@types/node": "*"
+    moment: ">=2.14.0"
+  checksum: 24628218d0645cfa82167451de1d38103bdc2e6ddb447a447ba2021b4c9da0d88cb51b39695ba51ddf31499ba4fd295694d702b5418871a255ef503c6eddc4be
+  languageName: node
+  linkType: hard
+
 "@types/graceful-fs@npm:^4.1.2":
   version: 4.1.5
   resolution: "@types/graceful-fs@npm:4.1.5"
@@ -1149,6 +1163,13 @@ __metadata:
   version: 2.0.0
   resolution: "@types/stack-utils@npm:2.0.0"
   checksum: 662312302e07685c99a1c45c6753eb997b31d2af66e646c5937f62d593a63a111289503d0b06a8d1e6f3922b67fc2ed94889d84653a08861a7fee67b81ce5b92
+  languageName: node
+  linkType: hard
+
+"@types/uuid@npm:^8.3.0":
+  version: 8.3.0
+  resolution: "@types/uuid@npm:8.3.0"
+  checksum: 620985aed8fdb4aed153daca5235f4303457a67a4d181efac0021712eabd9edd7e88895f79730c0e651effde7633b1b61e49a81519ac8d4e75019d2ac9b6412f
   languageName: node
   linkType: hard
 
@@ -5317,7 +5338,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"moment@npm:>= 2.9.0":
+"moment@npm:>= 2.9.0, moment@npm:>=2.14.0":
   version: 2.29.1
   resolution: "moment@npm:2.29.1"
   checksum: 86729013febf7160de5b93da69273dd304d674b0224f9544b3abd09a87671ddd2cdd57598261ce57588910d63747ffd5590965e83c790d8bf327083c0e0a06e0
@@ -7457,7 +7478,7 @@ typescript@4.1.3:
   languageName: node
   linkType: hard
 
-"uuid@npm:8.3.2, uuid@npm:^8.3.0":
+"uuid@npm:8.3.2, uuid@npm:^8.3.0, uuid@npm:^8.3.2":
   version: 8.3.2
   resolution: "uuid@npm:8.3.2"
   bin:
