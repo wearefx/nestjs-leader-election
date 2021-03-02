@@ -1,17 +1,20 @@
-import { NotImplementedException } from "@nestjs/common";
 import { HeartbeatService } from "./Heartbeat.service";
 
 export class LeaderElectionHelper {
   constructor(private heartbeatService: HeartbeatService) {}
 
-  // eslint-disable-next-line class-methods-use-this
+  /**
+   * Determine if this node is the leader node for the cluster.
+   */
   async isLeader(): Promise<boolean> {
-    throw new NotImplementedException("Leader Election not implemented.");
+    return this.heartbeatService.thisNodeIsLeader();
   }
 
-  // eslint-disable-next-line class-methods-use-this
+  /**
+   * Determine if this node is part of an election to elect a new leader.
+   */
   async isInElection(): Promise<boolean> {
-    throw new NotImplementedException("Leader Election not implemented.");
+    return this.heartbeatService.inElection();
   }
 }
 
