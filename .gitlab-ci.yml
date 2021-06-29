@@ -18,6 +18,8 @@ build:
 lint:
   stage: build
   script:
+    - yarn --immutable
+    - yarn dlx commitlint --from $(git rev-parse --short HEAD^1) --to $(git rev-parse --short HEAD^2) --verbose
     - make lint
 
 test:
