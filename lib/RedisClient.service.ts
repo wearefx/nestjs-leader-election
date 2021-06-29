@@ -8,7 +8,7 @@ export class RedisClientService {
 
   public readonly publisherClient;
 
-  private readonly prefix;
+  private readonly prefix: string;
 
   private readonly logger = new Logger(RedisClientService.name);
 
