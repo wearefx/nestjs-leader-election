@@ -68,12 +68,12 @@
     "build": "yarn tsc -b"
   },
   "dependencies": {
-    "@nestjs/common": "^7.6.13",
-    "@nestjs/config": "^0.6.3",
-    "@nestjs/schedule": "^0.4.2",
-    "handy-redis": "^2.2.1",
-    "rxjs": "^6.6.6",
-    "uuid": "^8.3.2"
+    "@nestjs/common": "7.6.13",
+    "@nestjs/config": "0.6.3",
+    "@nestjs/schedule": "0.4.2",
+    "handy-redis": "2.2.1",
+    "rxjs": "6.6.6",
+    "uuid": "8.3.2"
   },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
