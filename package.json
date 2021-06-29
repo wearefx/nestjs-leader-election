@@ -81,7 +81,7 @@
     "@commitlint/prompt-cli": "11.0.0",
     "@fxd-dev-util/eslint-config-base": "1.0.0",
     "@types/cron": "1.7.2",
-    "@types/jest": "26.0.20",
+    "@types/jest": "26.0.23",
     "@types/prettier": "2.1.6",
     "@types/uuid": "8.3.0",
     "@typescript-eslint/eslint-plugin": "4.14.2",
