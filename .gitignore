@@ -2,10 +2,6 @@
 .idea
 *.iml
 
-# IDE yarn dlx pnpify
-/.vim
-/.vscode
-
 # Log Files
 *.log
 
