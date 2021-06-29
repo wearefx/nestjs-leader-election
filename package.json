@@ -1,6 +1,6 @@
 {
   "name": "@fxdigital/nestjs-leader-election",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Adds quasi-Raft Consensus leader election to NestJs microservice instances using a Redis broker.",
   "license": "MIT",
   "contributors": [
