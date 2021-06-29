@@ -45,7 +45,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nestjs/config", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:0.6.3"],
             ["@nestjs/schedule", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:0.4.2"],
             ["@types/cron", "npm:1.7.2"],
-            ["@types/jest", "npm:26.0.20"],
+            ["@types/jest", "npm:26.0.23"],
             ["@types/prettier", "npm:2.1.6"],
             ["@types/uuid", "npm:8.3.0"],
             ["@typescript-eslint/eslint-plugin", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:4.14.2"],
@@ -960,7 +960,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nestjs/config", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:0.6.3"],
             ["@nestjs/schedule", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:0.4.2"],
             ["@types/cron", "npm:1.7.2"],
-            ["@types/jest", "npm:26.0.20"],
+            ["@types/jest", "npm:26.0.23"],
             ["@types/prettier", "npm:2.1.6"],
             ["@types/uuid", "npm:8.3.0"],
             ["@typescript-eslint/eslint-plugin", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:4.14.2"],
@@ -1462,10 +1462,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/jest", [
-        ["npm:26.0.20", {
-          "packageLocation": "./.yarn/cache/@types-jest-npm-26.0.20-e4c9c054bf-221e39c7c9.zip/node_modules/@types/jest/",
+        ["npm:26.0.23", {
+          "packageLocation": "./.yarn/cache/@types-jest-npm-26.0.23-f0d419e70e-a015676b78.zip/node_modules/@types/jest/",
           "packageDependencies": [
-            ["@types/jest", "npm:26.0.20"],
+            ["@types/jest", "npm:26.0.23"],
             ["jest-diff", "npm:26.6.2"],
             ["pretty-format", "npm:26.6.2"]
           ],
@@ -2900,14 +2900,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["core-js", [
         ["npm:2.6.12", {
-          "packageLocation": "./.yarn/unplugged/core-js-npm-2.6.12-0b93d77d31/node_modules/core-js/",
+          "packageLocation": "./.yarn/cache/core-js-npm-2.6.12-0b93d77d31-b865823ce9.zip/node_modules/core-js/",
           "packageDependencies": [
             ["core-js", "npm:2.6.12"]
           ],
           "linkType": "HARD",
         }],
         ["npm:3.9.1", {
-          "packageLocation": "./.yarn/unplugged/core-js-npm-3.9.1-5a7342ca0f/node_modules/core-js/",
+          "packageLocation": "./.yarn/cache/core-js-npm-3.9.1-5a7342ca0f-3f36046624.zip/node_modules/core-js/",
           "packageDependencies": [
             ["core-js", "npm:3.9.1"]
           ],
@@ -4565,7 +4565,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["husky", [
         ["npm:4.3.8", {
-          "packageLocation": "./.yarn/unplugged/husky-npm-4.3.8-f7cd00e56d/node_modules/husky/",
+          "packageLocation": "./.yarn/cache/husky-npm-4.3.8-f7cd00e56d-1ac4fb51ff.zip/node_modules/husky/",
           "packageDependencies": [
             ["husky", "npm:4.3.8"],
             ["chalk", "npm:4.1.0"],
@@ -8526,7 +8526,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/ts-jest-virtual-92cde4b39c/0/cache/ts-jest-npm-26.5.2-fafc26b9ef-f946624129.zip/node_modules/ts-jest/",
           "packageDependencies": [
             ["ts-jest", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:26.5.2"],
-            ["@types/jest", "npm:26.0.20"],
+            ["@types/jest", "npm:26.0.23"],
             ["@types/typescript", null],
             ["bs-logger", "npm:0.2.6"],
             ["buffer-from", "npm:1.1.1"],
