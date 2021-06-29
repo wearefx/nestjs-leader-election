@@ -1,5 +1,20 @@
 {
-  "extends": [
-    "config:base"
-  ]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", "group:monorepos", ":semanticCommitScopeDisabled"],
+  "dependencyDashboard": true,
+  "prCreation": "not-pending",
+  "labels": ["dependencies"],
+  "assignAutomerge": true,
+  "assignees": ["fx-adr"],
+  "rebaseWhen": "behind-base-branch",
+  "semanticCommits": "enabled",
+  "semanticCommitType": "build",
+  "stabilityDays": 3,
+  "packageRules": [],
+  "constraints": {
+    "yarn": "2.x"
+  },
+  "compatibility": {
+    "yarn": "2.x"
+  }
 }
