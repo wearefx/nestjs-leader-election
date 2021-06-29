@@ -656,9 +656,9 @@ __metadata:
     "@commitlint/config-conventional": 11.0.0
     "@commitlint/prompt-cli": 11.0.0
     "@fxd-dev-util/eslint-config-base": 1.0.0
-    "@nestjs/common": ^7.6.13
-    "@nestjs/config": ^0.6.3
-    "@nestjs/schedule": ^0.4.2
+    "@nestjs/common": 7.6.13
+    "@nestjs/config": 0.6.3
+    "@nestjs/schedule": 0.4.2
     "@types/cron": 1.7.2
     "@types/jest": 26.0.23
     "@types/prettier": 2.1.6
@@ -670,15 +670,15 @@ __metadata:
     eslint-plugin-eslint-comments: 3.2.0
     eslint-plugin-import: 2.22.1
     eslint-plugin-promise: 4.2.1
-    handy-redis: ^2.2.1
+    handy-redis: 2.2.1
     husky: 4.3.8
     jest: 26.6.3
     lint-staged: 10.5.4
     prettier: 2.1.1
-    rxjs: ^6.6.6
+    rxjs: 6.6.6
     ts-jest: 26.5.2
     typescript: 4.3.4
-    uuid: ^8.3.2
+    uuid: 8.3.2
   languageName: unknown
   linkType: soft
 
@@ -897,7 +897,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/common@npm:^7.6.13":
+"@nestjs/common@npm:7.6.13":
   version: 7.6.13
   resolution: "@nestjs/common@npm:7.6.13"
   dependencies:
@@ -922,7 +922,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/config@npm:^0.6.3":
+"@nestjs/config@npm:0.6.3":
   version: 0.6.3
   resolution: "@nestjs/config@npm:0.6.3"
   dependencies:
@@ -940,7 +940,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/schedule@npm:^0.4.2":
+"@nestjs/schedule@npm:0.4.2":
   version: 0.4.2
   resolution: "@nestjs/schedule@npm:0.4.2"
   dependencies:
@@ -3547,7 +3547,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"handy-redis@npm:^2.2.1":
+"handy-redis@npm:2.2.1":
   version: 2.2.1
   resolution: "handy-redis@npm:2.2.1"
   dependencies:
@@ -6464,7 +6464,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"rxjs@npm:^6.6.6":
+"rxjs@npm:6.6.6, rxjs@npm:^6.6.6":
   version: 6.6.6
   resolution: "rxjs@npm:6.6.6"
   dependencies:
@@ -7488,7 +7488,7 @@ typescript@4.3.4:
   languageName: node
   linkType: hard
 
-"uuid@npm:8.3.2, uuid@npm:^8.3.0, uuid@npm:^8.3.2":
+"uuid@npm:8.3.2, uuid@npm:^8.3.0":
   version: 8.3.2
   resolution: "uuid@npm:8.3.2"
   bin:
