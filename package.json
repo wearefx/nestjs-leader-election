@@ -22,6 +22,13 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "files": [
+    "README.md",
+    "lib/**/*.d.ts",
+    "lib/**/*.d.ts.map",
+    "lib/**/*.js",
+    "lib/**/*.js.map"
+  ],
   "homepage": "https://github.com/wearefx/nestjs-leader-election",
   "bugs": {
     "url": "https://github.com/wearefx/nestjs-leader-election/-/issues"
