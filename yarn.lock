@@ -424,7 +424,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:^11.0.0":
+"@commitlint/cli@npm:11.0.0":
   version: 11.0.0
   resolution: "@commitlint/cli@npm:11.0.0"
   dependencies:
@@ -446,7 +446,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^11.0.0":
+"@commitlint/config-conventional@npm:11.0.0":
   version: 11.0.0
   resolution: "@commitlint/config-conventional@npm:11.0.0"
   dependencies:
@@ -536,7 +536,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/prompt-cli@npm:^11.0.0":
+"@commitlint/prompt-cli@npm:11.0.0":
   version: 11.0.0
   resolution: "@commitlint/prompt-cli@npm:11.0.0"
   dependencies:
@@ -660,31 +660,31 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@fxdigital/nestjs-leader-election@workspace:."
   dependencies:
-    "@commitlint/cli": ^11.0.0
-    "@commitlint/config-conventional": ^11.0.0
-    "@commitlint/prompt-cli": ^11.0.0
+    "@commitlint/cli": 11.0.0
+    "@commitlint/config-conventional": 11.0.0
+    "@commitlint/prompt-cli": 11.0.0
     "@fxd-dev-util/eslint-config-base": ^1.0.0
     "@nestjs/common": ^7.6.13
     "@nestjs/config": ^0.6.3
     "@nestjs/schedule": ^0.4.2
-    "@types/cron": ^1.7.2
-    "@types/jest": ^26.0.20
-    "@types/prettier": ^2.1.6
-    "@types/uuid": ^8.3.0
-    "@typescript-eslint/eslint-plugin": ^4.14.2
-    "@typescript-eslint/parser": ^4.14.2
-    eslint: ^7.19.0
-    eslint-import-resolver-node: ^0.3.4
-    eslint-plugin-eslint-comments: ^3.2.0
-    eslint-plugin-import: ^2.22.1
-    eslint-plugin-promise: ^4.2.1
+    "@types/cron": 1.7.2
+    "@types/jest": 26.0.20
+    "@types/prettier": 2.2.1
+    "@types/uuid": 8.3.0
+    "@typescript-eslint/eslint-plugin": 4.15.2
+    "@typescript-eslint/parser": 4.15.2
+    eslint: 7.21.0
+    eslint-import-resolver-node: 0.3.4
+    eslint-plugin-eslint-comments: 3.2.0
+    eslint-plugin-import: 2.22.1
+    eslint-plugin-promise: 4.3.1
     handy-redis: ^2.2.1
-    husky: ^4.3.8
-    jest: ^26.6.3
-    lint-staged: ^10.5.4
+    husky: 4.3.8
+    jest: 26.6.3
+    lint-staged: 10.5.4
     prettier: 2.1.1
     rxjs: ^6.6.6
-    ts-jest: ^26.5.2
+    ts-jest: 26.5.2
     typescript: 4.1.3
     uuid: ^8.3.2
   languageName: unknown
@@ -1047,7 +1047,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/cron@npm:^1.7.2":
+"@types/cron@npm:1.7.2":
   version: 1.7.2
   resolution: "@types/cron@npm:1.7.2"
   dependencies:
@@ -1091,7 +1091,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:26.x, @types/jest@npm:^26.0.20":
+"@types/jest@npm:26.0.20, @types/jest@npm:26.x":
   version: 26.0.20
   resolution: "@types/jest@npm:26.0.20"
   dependencies:
@@ -1143,7 +1143,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prettier@npm:^2.0.0, @types/prettier@npm:^2.1.6":
+"@types/prettier@npm:2.2.1, @types/prettier@npm:^2.0.0":
   version: 2.2.1
   resolution: "@types/prettier@npm:2.2.1"
   checksum: 9dc257dfc51eab6bc1e9ce58df94b309a206b2cdc6768709de3d20f70ae545c616bbc46add6d66f66cfa6cfbb0613dd09e6b6028ff6ff8ba9d3625f38d85cc66
@@ -1166,7 +1166,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/uuid@npm:^8.3.0":
+"@types/uuid@npm:8.3.0":
   version: 8.3.0
   resolution: "@types/uuid@npm:8.3.0"
   checksum: 620985aed8fdb4aed153daca5235f4303457a67a4d181efac0021712eabd9edd7e88895f79730c0e651effde7633b1b61e49a81519ac8d4e75019d2ac9b6412f
@@ -1189,7 +1189,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^4.14.2":
+"@typescript-eslint/eslint-plugin@npm:4.15.2":
   version: 4.15.2
   resolution: "@typescript-eslint/eslint-plugin@npm:4.15.2"
   dependencies:
@@ -1227,7 +1227,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^4.14.2":
+"@typescript-eslint/parser@npm:4.15.2":
   version: 4.15.2
   resolution: "@typescript-eslint/parser@npm:4.15.2"
   dependencies:
@@ -2742,7 +2742,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-node@npm:^0.3.4":
+"eslint-import-resolver-node@npm:0.3.4, eslint-import-resolver-node@npm:^0.3.4":
   version: 0.3.4
   resolution: "eslint-import-resolver-node@npm:0.3.4"
   dependencies:
@@ -2762,7 +2762,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-eslint-comments@npm:^3.2.0":
+"eslint-plugin-eslint-comments@npm:3.2.0":
   version: 3.2.0
   resolution: "eslint-plugin-eslint-comments@npm:3.2.0"
   dependencies:
@@ -2774,7 +2774,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:^2.22.1":
+"eslint-plugin-import@npm:2.22.1":
   version: 2.22.1
   resolution: "eslint-plugin-import@npm:2.22.1"
   dependencies:
@@ -2797,7 +2797,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-promise@npm:^4.2.1":
+"eslint-plugin-promise@npm:4.3.1":
   version: 4.3.1
   resolution: "eslint-plugin-promise@npm:4.3.1"
   checksum: 01aa61c2bea6cfd2e612cda9aaaf079c7652503dd613248a251c99b58414245ee999a8f5ca0a15f62c6b1605aca4dcbace272d67f22d79aac3f698547eb75d9a
@@ -2837,7 +2837,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.19.0":
+"eslint@npm:7.21.0":
   version: 7.21.0
   resolution: "eslint@npm:7.21.0"
   dependencies:
@@ -3705,7 +3705,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"husky@npm:^4.3.8":
+"husky@npm:4.3.8":
   version: 4.3.8
   resolution: "husky@npm:4.3.8"
   dependencies:
@@ -4693,7 +4693,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest@npm:^26.6.3":
+"jest@npm:26.6.3":
   version: 26.6.3
   resolution: "jest@npm:26.6.3"
   dependencies:
@@ -4949,7 +4949,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^10.5.4":
+"lint-staged@npm:10.5.4":
   version: 10.5.4
   resolution: "lint-staged@npm:10.5.4"
   dependencies:
@@ -7260,7 +7260,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:^26.5.2":
+"ts-jest@npm:26.5.2":
   version: 26.5.2
   resolution: "ts-jest@npm:26.5.2"
   dependencies:
