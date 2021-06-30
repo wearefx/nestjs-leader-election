@@ -675,7 +675,7 @@ __metadata:
     jest: 26.6.3
     lint-staged: 10.5.4
     prettier: 2.1.1
-    rxjs: 6.6.6
+    rxjs: 6.6.7
     ts-jest: 26.5.2
     typescript: 4.3.4
     uuid: 8.3.2
@@ -6464,7 +6464,16 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"rxjs@npm:6.6.6, rxjs@npm:^6.6.6":
+"rxjs@npm:6.6.7":
+  version: 6.6.7
+  resolution: "rxjs@npm:6.6.7"
+  dependencies:
+    tslib: ^1.9.0
+  checksum: 1146975cbd5388ee5e61450235dc5670931e43cce71813f567977d334acc4d75c6e8d9d293df67e1fb31510b99fc8957943d4a9b550d109e4dc69967a8471543
+  languageName: node
+  linkType: hard
+
+"rxjs@npm:^6.6.6":
   version: 6.6.6
   resolution: "rxjs@npm:6.6.6"
   dependencies:
