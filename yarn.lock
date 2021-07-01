@@ -676,7 +676,7 @@ __metadata:
     lint-staged: 11.0.0
     prettier: 2.1.1
     rxjs: 6.6.7
-    ts-jest: 26.5.2
+    ts-jest: 26.5.6
     typescript: 4.3.4
     uuid: 8.3.2
   languageName: unknown
@@ -1090,16 +1090,6 @@ __metadata:
     jest-diff: ^26.0.0
     pretty-format: ^26.0.0
   checksum: a015676b78bdc51be6f6315acef10d9106ea8064e3e49143bca3c75b834b61285b45c5f5ccfd049a80107f1e2869a9183cdb5be85816c073ea8dd05852fafdc6
-  languageName: node
-  linkType: hard
-
-"@types/jest@npm:26.x":
-  version: 26.0.20
-  resolution: "@types/jest@npm:26.0.20"
-  dependencies:
-    jest-diff: ^26.0.0
-    pretty-format: ^26.0.0
-  checksum: 221e39c7c9ce8d71ae4b2ba6abeef1a5b04f1cd96419b9fbbb65534bef4c4215b650561183073dcf47584ff1888d1f4fa7d2af2a38492b7feb9a3bfdcd24c44f
   languageName: node
   linkType: hard
 
@@ -7325,11 +7315,10 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:26.5.2":
-  version: 26.5.2
-  resolution: "ts-jest@npm:26.5.2"
+"ts-jest@npm:26.5.6":
+  version: 26.5.6
+  resolution: "ts-jest@npm:26.5.6"
   dependencies:
-    "@types/jest": 26.x
     bs-logger: 0.x
     buffer-from: 1.x
     fast-json-stable-stringify: 2.x
@@ -7345,7 +7334,7 @@ fsevents@^2.1.2:
     typescript: ">=3.8 <5.0"
   bin:
     ts-jest: cli.js
-  checksum: f9466241291bde18c6f6c5d61875d861983fa2a1b9b1a2164141418c129b874df2bc15bbc4fbde7fc2cb1fa9cae972d5fb292c79b4777afbe19f7ccf035e5d70
+  checksum: fd32a8b256091d45d850c491fd090f74a368d44bccc8fedfa0dd074757727e7f07621eb2a69ebf081428f44a357a879237a2cf0aef970896410d454d0bf87ac6
   languageName: node
   linkType: hard
 
