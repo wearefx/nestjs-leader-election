@@ -913,7 +913,7 @@ __metadata:
     "@fxd-dev-util/eslint-config-base": 1.0.0
     "@nestjs/common": 7.6.18
     "@nestjs/config": 0.6.3
-    "@nestjs/schedule": 0.4.2
+    "@nestjs/schedule": 0.4.3
     "@types/cron": 1.7.2
     "@types/jest": 26.0.23
     "@types/prettier": 2.1.6
@@ -1214,16 +1214,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/schedule@npm:0.4.2":
-  version: 0.4.2
-  resolution: "@nestjs/schedule@npm:0.4.2"
+"@nestjs/schedule@npm:0.4.3":
+  version: 0.4.3
+  resolution: "@nestjs/schedule@npm:0.4.3"
   dependencies:
     cron: 1.7.2
     uuid: 8.3.2
   peerDependencies:
     "@nestjs/common": ^6.10.11 || ^7.0.0
     reflect-metadata: ^0.1.12
-  checksum: 15940f90fa75f35d4c9a002c507a6161e76269a1958ce01fe3652b6943ea2ff80a2fe315c530a3457abce862f4674317a1fee05a8357b16bbce21cdb92828310
+  checksum: 4d6c5c3587a0ac243fdde8ba67a4a3c5aba1b21a61390c98fc29f7f3c901ea356c61d49fc5e29f1d48fa11b38894b954b568915d277ed1672f82f27a59cb1300
   languageName: node
   linkType: hard
 
