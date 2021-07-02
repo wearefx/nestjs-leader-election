@@ -916,7 +916,7 @@ __metadata:
     "@nestjs/schedule": 0.4.3
     "@types/cron": 1.7.2
     "@types/jest": 26.0.23
-    "@types/prettier": 2.1.6
+    "@types/prettier": 2.3.1
     "@types/uuid": 8.3.0
     "@typescript-eslint/eslint-plugin": 4.28.1
     "@typescript-eslint/parser": 4.28.1
@@ -929,7 +929,7 @@ __metadata:
     husky: 4.3.8
     jest: 27.0.6
     lint-staged: 11.0.0
-    prettier: 2.1.1
+    prettier: 2.3.2
     rxjs: 7.1.0
     ts-jest: 27.0.3
     typescript: 4.3.4
@@ -1429,14 +1429,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prettier@npm:2.1.6":
-  version: 2.1.6
-  resolution: "@types/prettier@npm:2.1.6"
-  checksum: c78a6406b0b0d167c3285c84ca63308028517bc772b16960d959ae0ab8947f58c33aac4ba4485ac878f114be230764f7d5582a43115727ba68e5fb59360d5f37
-  languageName: node
-  linkType: hard
-
-"@types/prettier@npm:^2.1.5":
+"@types/prettier@npm:2.3.1, @types/prettier@npm:^2.1.5":
   version: 2.3.1
   resolution: "@types/prettier@npm:2.3.1"
   checksum: 62ddbb1ba05d0df97fe49536e0d5409ea76d45cd2f6de062ff351d049e667b77010d2e912733d5d3255829fa1958c684a059e619f9d81e2ba9f27a6204a06149
@@ -5938,12 +5931,12 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.1.1":
-  version: 2.1.1
-  resolution: "prettier@npm:2.1.1"
+"prettier@npm:2.3.2":
+  version: 2.3.2
+  resolution: "prettier@npm:2.3.2"
   bin:
     prettier: bin-prettier.js
-  checksum: 420a807cda2d482388daa42379a7aaa1be629cb71f5792362a971a5ed1c6ff377d2e311818d24e9390a4a8a6eac3fda9ebe6975f2168efec893790c0497d8a93
+  checksum: 4fd89a7f6a12b13456d359fba2b1dd0fc0a17cf33f8f15953ab9f43b21ea9b09b5a2861d63b558ca0577274ce606d390e70628cf93e26d19d6cb7f19c9eebc31
   languageName: node
   linkType: hard
 
