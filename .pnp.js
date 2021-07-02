@@ -54,7 +54,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-import-resolver-node", "npm:0.3.4"],
             ["eslint-plugin-eslint-comments", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:3.2.0"],
             ["eslint-plugin-import", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:2.22.1"],
-            ["eslint-plugin-promise", "npm:4.2.1"],
+            ["eslint-plugin-promise", "npm:4.3.1"],
             ["handy-redis", "npm:2.2.1"],
             ["husky", "npm:4.3.8"],
             ["jest", "npm:26.6.3"],
@@ -937,7 +937,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-import-resolver-node", "npm:0.3.4"],
             ["eslint-plugin-eslint-comments", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:3.2.0"],
             ["eslint-plugin-import", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:2.22.1"],
-            ["eslint-plugin-promise", "npm:4.2.1"],
+            ["eslint-plugin-promise", "npm:4.3.1"],
             ["typescript", "patch:typescript@npm%3A4.3.4#builtin<compat/typescript>::version=4.3.4&hash=ddfc1b"]
           ],
           "packagePeers": [
@@ -983,7 +983,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-import-resolver-node", "npm:0.3.4"],
             ["eslint-plugin-eslint-comments", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:3.2.0"],
             ["eslint-plugin-import", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:2.22.1"],
-            ["eslint-plugin-promise", "npm:4.2.1"],
+            ["eslint-plugin-promise", "npm:4.3.1"],
             ["handy-redis", "npm:2.2.1"],
             ["husky", "npm:4.3.8"],
             ["jest", "npm:26.6.3"],
@@ -3636,10 +3636,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["eslint-plugin-promise", [
-        ["npm:4.2.1", {
-          "packageLocation": "./.yarn/cache/eslint-plugin-promise-npm-4.2.1-2eff4596ac-8c233a0b5f.zip/node_modules/eslint-plugin-promise/",
+        ["npm:4.3.1", {
+          "packageLocation": "./.yarn/cache/eslint-plugin-promise-npm-4.3.1-bc315e862f-01aa61c2be.zip/node_modules/eslint-plugin-promise/",
           "packageDependencies": [
-            ["eslint-plugin-promise", "npm:4.2.1"]
+            ["eslint-plugin-promise", "npm:4.3.1"]
           ],
           "linkType": "HARD",
         }]
