@@ -687,7 +687,7 @@ __metadata:
     eslint-import-resolver-node: 0.3.4
     eslint-plugin-eslint-comments: 3.2.0
     eslint-plugin-import: 2.22.1
-    eslint-plugin-promise: 4.2.1
+    eslint-plugin-promise: 5.1.0
     handy-redis: 2.2.1
     husky: 4.3.8
     jest: 26.6.3
@@ -2834,10 +2834,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-promise@npm:4.2.1":
-  version: 4.2.1
-  resolution: "eslint-plugin-promise@npm:4.2.1"
-  checksum: 8c233a0b5f5646e08709e999aa75973481ee46c45255ec4b4d1577915f68d79ae52f6f84e361af5b761971294bdb38ec86021515fa4cff178f57c989226dd671
+"eslint-plugin-promise@npm:5.1.0":
+  version: 5.1.0
+  resolution: "eslint-plugin-promise@npm:5.1.0"
+  peerDependencies:
+    eslint: ^7.0.0
+  checksum: dd6ed68112818248e94b82d8f57807be148d1162868b890542367bc8c242f6b74be34bfd0d609d5e6231fb5e99112718fe23a34213daaa18d3864678e9c776a2
   languageName: node
   linkType: hard
 
