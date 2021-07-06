@@ -55,7 +55,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-eslint-comments", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:3.2.0"],
             ["eslint-plugin-import", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:2.23.4"],
             ["eslint-plugin-promise", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:5.1.0"],
-            ["handy-redis", "npm:2.2.1"],
+            ["handy-redis", "npm:2.2.2"],
             ["husky", "npm:4.3.8"],
             ["jest", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:27.0.6"],
             ["lint-staged", "npm:11.0.0"],
@@ -1396,7 +1396,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-eslint-comments", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:3.2.0"],
             ["eslint-plugin-import", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:2.23.4"],
             ["eslint-plugin-promise", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:5.1.0"],
-            ["handy-redis", "npm:2.2.1"],
+            ["handy-redis", "npm:2.2.2"],
             ["husky", "npm:4.3.8"],
             ["jest", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:27.0.6"],
             ["lint-staged", "npm:11.0.0"],
@@ -2041,10 +2041,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/redis", [
-        ["npm:2.8.28", {
-          "packageLocation": "./.yarn/cache/@types-redis-npm-2.8.28-913353dc30-a6f17271c3.zip/node_modules/@types/redis/",
+        ["npm:2.8.30", {
+          "packageLocation": "./.yarn/cache/@types-redis-npm-2.8.30-192b78888f-c12a5eafae.zip/node_modules/@types/redis/",
           "packageDependencies": [
-            ["@types/redis", "npm:2.8.28"],
+            ["@types/redis", "npm:2.8.30"],
             ["@types/node", "npm:14.14.31"]
           ],
           "linkType": "HARD",
@@ -4693,11 +4693,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["handy-redis", [
-        ["npm:2.2.1", {
-          "packageLocation": "./.yarn/cache/handy-redis-npm-2.2.1-016caabd26-eb5544a940.zip/node_modules/handy-redis/",
+        ["npm:2.2.2", {
+          "packageLocation": "./.yarn/cache/handy-redis-npm-2.2.2-b69e262d89-43501923d4.zip/node_modules/handy-redis/",
           "packageDependencies": [
-            ["handy-redis", "npm:2.2.1"],
-            ["@types/redis", "npm:2.8.28"]
+            ["handy-redis", "npm:2.2.2"],
+            ["@types/redis", "npm:2.8.30"]
           ],
           "linkType": "HARD",
         }]
