@@ -70,7 +70,7 @@
   "dependencies": {
     "@nestjs/common": "7.6.18",
     "@nestjs/config": "0.6.3",
-    "@nestjs/schedule": "0.4.3",
+    "@nestjs/schedule": "1.0.0",
     "handy-redis": "2.2.2",
     "rxjs": "7.1.0",
     "uuid": "8.3.2"
