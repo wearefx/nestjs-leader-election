@@ -44,7 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:7.6.18"],
             ["@nestjs/config", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:0.6.3"],
             ["@nestjs/schedule", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0"],
-            ["@types/cron", "npm:1.7.2"],
+            ["@types/cron", "npm:1.7.3"],
             ["@types/jest", "npm:26.0.23"],
             ["@types/prettier", "npm:2.3.2"],
             ["@types/uuid", "npm:8.3.1"],
@@ -1385,7 +1385,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:7.6.18"],
             ["@nestjs/config", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:0.6.3"],
             ["@nestjs/schedule", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0"],
-            ["@types/cron", "npm:1.7.2"],
+            ["@types/cron", "npm:1.7.3"],
             ["@types/jest", "npm:26.0.23"],
             ["@types/prettier", "npm:2.3.2"],
             ["@types/uuid", "npm:8.3.1"],
@@ -1917,10 +1917,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/cron", [
-        ["npm:1.7.2", {
-          "packageLocation": "./.yarn/cache/@types-cron-npm-1.7.2-e74d35ece3-24628218d0.zip/node_modules/@types/cron/",
+        ["npm:1.7.3", {
+          "packageLocation": "./.yarn/cache/@types-cron-npm-1.7.3-9b4aaff472-62abdc26f0.zip/node_modules/@types/cron/",
           "packageDependencies": [
-            ["@types/cron", "npm:1.7.2"],
+            ["@types/cron", "npm:1.7.3"],
             ["@types/node", "npm:14.14.31"],
             ["moment", "npm:2.29.1"]
           ],
