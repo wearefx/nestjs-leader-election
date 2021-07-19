@@ -911,7 +911,7 @@ __metadata:
     "@commitlint/config-conventional": 12.1.4
     "@commitlint/prompt-cli": 12.1.4
     "@fxd-dev-util/eslint-config-base": 1.0.0
-    "@nestjs/common": 7.6.18
+    "@nestjs/common": 8.0.4
     "@nestjs/config": 1.0.0
     "@nestjs/schedule": 1.0.0
     "@types/cron": 1.7.3
@@ -1190,20 +1190,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/common@npm:7.6.18":
-  version: 7.6.18
-  resolution: "@nestjs/common@npm:7.6.18"
+"@nestjs/common@npm:8.0.4":
+  version: 8.0.4
+  resolution: "@nestjs/common@npm:8.0.4"
   dependencies:
     axios: 0.21.1
     iterare: 1.2.1
-    tslib: 2.2.0
+    tslib: 2.3.0
     uuid: 8.3.2
   peerDependencies:
     cache-manager: "*"
     class-transformer: "*"
     class-validator: "*"
     reflect-metadata: ^0.1.12
-    rxjs: ^6.0.0
+    rxjs: ^7.1.0
   peerDependenciesMeta:
     cache-manager:
       optional: true
@@ -1211,7 +1211,7 @@ __metadata:
       optional: true
     class-validator:
       optional: true
-  checksum: 464e98a2f6b7a46f8065a388a6283626b33e29e9c73e66dda103d25ca85d638c404f91b0c153dc90646c1cd988a81dc3c8acfa364f0f01de73675870273bf0f2
+  checksum: 4599d08df93c1276989fd292bd3a86fa8f022513b2f08b98285f4bd8d76cf37b1b6571f384574f9e4c5996fe2fc6e7cef2ef0ce71b2302939f75e5efd44583b0
   languageName: node
   linkType: hard
 
@@ -7029,10 +7029,10 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"tslib@npm:2.2.0":
-  version: 2.2.0
-  resolution: "tslib@npm:2.2.0"
-  checksum: 2d35468c470410871c5246e43f12dcb6d0fc363b617c176f26443b9530e5c5ee8448966892a42956168d8f495da7865bda33dfe82c26c91991e28999974a618f
+"tslib@npm:2.3.0":
+  version: 2.3.0
+  resolution: "tslib@npm:2.3.0"
+  checksum: 7b4fc9feff0f704743c3760f5d8d708f6417fac6458159e63df3a6b1100f0736e3b99edb9fe370f274ad15160a1f49ff05cb49402534c818ff552c48e38c3e6e
   languageName: node
   linkType: hard
 
