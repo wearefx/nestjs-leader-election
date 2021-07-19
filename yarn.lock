@@ -916,6 +916,7 @@ __metadata:
     "@nestjs/schedule": 1.0.0
     "@types/cron": 1.7.3
     "@types/jest": 26.0.24
+    "@types/node": 16.3.3
     "@types/prettier": 2.3.2
     "@types/uuid": 8.3.1
     "@typescript-eslint/eslint-plugin": 4.28.3
@@ -1430,6 +1431,13 @@ __metadata:
   version: 14.14.31
   resolution: "@types/node@npm:14.14.31"
   checksum: 635dc8a0898a923621e02ca179e17baa39fdfa44f0096fcc1b7046c9b32317e74a99956a7b45ca0e8069874f51f4e7873a418239a318a4b6e7936f6510ac5992
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:16.3.3":
+  version: 16.3.3
+  resolution: "@types/node@npm:16.3.3"
+  checksum: e597a54070815170d8f541c778900023f2522c27be9c56b2b8411d663da1ef5226f9d16ec158c5d9c84ddcc85551e3d02aa68046aa108b4c6085bc7c95a5bebb
   languageName: node
   linkType: hard
 
