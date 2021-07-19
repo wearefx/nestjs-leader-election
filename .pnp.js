@@ -41,7 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/config-conventional", "npm:12.1.4"],
             ["@commitlint/prompt-cli", "npm:12.1.4"],
             ["@fxd-dev-util/eslint-config-base", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0::__archiveUrl=https%3A%2F%2Fgit.fxdigital.uk%2Fapi%2Fv4%2Fprojects%2F13%2Fpackages%2Fnpm%2F%40fxd-dev-util%2Feslint-config-base%2F-%2F%40fxd-dev-util%2Feslint-config-base-1.0.0.tgz"],
-            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:7.6.18"],
+            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.4"],
             ["@nestjs/config", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0"],
             ["@nestjs/schedule", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0"],
             ["@types/cron", "npm:1.7.3"],
@@ -1383,7 +1383,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/config-conventional", "npm:12.1.4"],
             ["@commitlint/prompt-cli", "npm:12.1.4"],
             ["@fxd-dev-util/eslint-config-base", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0::__archiveUrl=https%3A%2F%2Fgit.fxdigital.uk%2Fapi%2Fv4%2Fprojects%2F13%2Fpackages%2Fnpm%2F%40fxd-dev-util%2Feslint-config-base%2F-%2F%40fxd-dev-util%2Feslint-config-base-1.0.0.tgz"],
-            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:7.6.18"],
+            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.4"],
             ["@nestjs/config", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0"],
             ["@nestjs/schedule", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0"],
             ["@types/cron", "npm:1.7.3"],
@@ -1696,17 +1696,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@nestjs/common", [
-        ["npm:7.6.18", {
-          "packageLocation": "./.yarn/cache/@nestjs-common-npm-7.6.18-855d09bc57-464e98a2f6.zip/node_modules/@nestjs/common/",
+        ["npm:8.0.4", {
+          "packageLocation": "./.yarn/cache/@nestjs-common-npm-8.0.4-10b8f4934b-4599d08df9.zip/node_modules/@nestjs/common/",
           "packageDependencies": [
-            ["@nestjs/common", "npm:7.6.18"]
+            ["@nestjs/common", "npm:8.0.4"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:7.6.18", {
-          "packageLocation": "./.yarn/$$virtual/@nestjs-common-virtual-f16f9c7daa/0/cache/@nestjs-common-npm-7.6.18-855d09bc57-464e98a2f6.zip/node_modules/@nestjs/common/",
+        ["virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.4", {
+          "packageLocation": "./.yarn/$$virtual/@nestjs-common-virtual-b7d17400d7/0/cache/@nestjs-common-npm-8.0.4-10b8f4934b-4599d08df9.zip/node_modules/@nestjs/common/",
           "packageDependencies": [
-            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:7.6.18"],
+            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.4"],
             ["@types/cache-manager", null],
             ["@types/class-transformer", null],
             ["@types/class-validator", null],
@@ -1719,7 +1719,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["iterare", "npm:1.2.1"],
             ["reflect-metadata", null],
             ["rxjs", "npm:7.2.0"],
-            ["tslib", "npm:2.2.0"],
+            ["tslib", "npm:2.3.0"],
             ["uuid", "npm:8.3.2"]
           ],
           "packagePeers": [
@@ -1749,7 +1749,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@nestjs-config-virtual-7248fc7eca/0/cache/@nestjs-config-npm-1.0.0-863edafb36-e2bcf9b34e.zip/node_modules/@nestjs/config/",
           "packageDependencies": [
             ["@nestjs/config", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0"],
-            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:7.6.18"],
+            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.4"],
             ["@types/nestjs__common", null],
             ["@types/reflect-metadata", null],
             ["@types/rxjs", null],
@@ -1785,7 +1785,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@nestjs-schedule-virtual-014526eb56/0/cache/@nestjs-schedule-npm-1.0.0-867cda5af7-fb02011790.zip/node_modules/@nestjs/schedule/",
           "packageDependencies": [
             ["@nestjs/schedule", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0"],
-            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:7.6.18"],
+            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.4"],
             ["@types/nestjs__common", null],
             ["@types/reflect-metadata", null],
             ["cron", "npm:1.7.2"],
@@ -3328,7 +3328,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["core-js", [
         ["npm:2.6.12", {
-          "packageLocation": "./.yarn/unplugged/core-js-npm-2.6.12-0b93d77d31/node_modules/core-js/",
+          "packageLocation": "./.yarn/cache/core-js-npm-2.6.12-0b93d77d31-b865823ce9.zip/node_modules/core-js/",
           "packageDependencies": [
             ["core-js", "npm:2.6.12"]
           ],
@@ -4892,7 +4892,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["husky", [
         ["npm:4.3.8", {
-          "packageLocation": "./.yarn/unplugged/husky-npm-4.3.8-f7cd00e56d/node_modules/husky/",
+          "packageLocation": "./.yarn/cache/husky-npm-4.3.8-f7cd00e56d-1ac4fb51ff.zip/node_modules/husky/",
           "packageDependencies": [
             ["husky", "npm:4.3.8"],
             ["chalk", "npm:4.1.0"],
@@ -8478,10 +8478,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:2.2.0", {
-          "packageLocation": "./.yarn/cache/tslib-npm-2.2.0-e83a07daa5-2d35468c47.zip/node_modules/tslib/",
+        ["npm:2.3.0", {
+          "packageLocation": "./.yarn/cache/tslib-npm-2.3.0-277e75e108-7b4fc9feff.zip/node_modules/tslib/",
           "packageDependencies": [
-            ["tslib", "npm:2.2.0"]
+            ["tslib", "npm:2.3.0"]
           ],
           "linkType": "HARD",
         }]
