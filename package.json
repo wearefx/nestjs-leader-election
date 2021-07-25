@@ -69,7 +69,7 @@
   },
   "dependencies": {
     "@nestjs/common": "8.0.4",
-    "@nestjs/config": "1.0.0",
+    "@nestjs/config": "1.0.1",
     "@nestjs/schedule": "1.0.0",
     "handy-redis": "2.2.2",
     "rxjs": "7.2.0",
