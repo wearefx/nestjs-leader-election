@@ -912,7 +912,7 @@ __metadata:
     "@commitlint/prompt-cli": 12.1.4
     "@fxd-dev-util/eslint-config-base": 1.0.0
     "@nestjs/common": 8.0.4
-    "@nestjs/config": 1.0.0
+    "@nestjs/config": 1.0.1
     "@nestjs/schedule": 1.0.0
     "@types/cron": 1.7.3
     "@types/jest": 26.0.24
@@ -1215,9 +1215,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/config@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@nestjs/config@npm:1.0.0"
+"@nestjs/config@npm:1.0.1":
+  version: 1.0.1
+  resolution: "@nestjs/config@npm:1.0.1"
   dependencies:
     dotenv: 10.0.0
     dotenv-expand: 5.1.0
@@ -1229,7 +1229,7 @@ __metadata:
     "@nestjs/common": ^7.0.0 || ^8.0.0
     reflect-metadata: ^0.1.13
     rxjs: ^6.0.0 || ^7.2.0
-  checksum: e2bcf9b34e6da0fbd9fdd68b021774af727e635d490159529b2c8c9cc37946d9f2f9891e26b799bbdb75e27e1aa4966e49281a9bf424597209140867d4659d97
+  checksum: a3d1916e4d0190fa39e17c344a1fa483200590983e47734d355ab6c030f400814153c23f5f07f24f73921dcdc66e1e47fed8ee51da4e09de4aefb905e5caf02a
   languageName: node
   linkType: hard
 
