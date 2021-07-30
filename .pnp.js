@@ -41,7 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/config-conventional", "npm:13.1.0"],
             ["@commitlint/prompt-cli", "npm:13.1.0"],
             ["@fxd-dev-util/eslint-config-base", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0::__archiveUrl=https%3A%2F%2Fgit.fxdigital.uk%2Fapi%2Fv4%2Fprojects%2F13%2Fpackages%2Fnpm%2F%40fxd-dev-util%2Feslint-config-base%2F-%2F%40fxd-dev-util%2Feslint-config-base-1.0.0.tgz"],
-            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.4"],
+            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.5"],
             ["@nestjs/config", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.1"],
             ["@nestjs/schedule", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0"],
             ["@types/cron", "npm:1.7.3"],
@@ -1384,7 +1384,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/config-conventional", "npm:13.1.0"],
             ["@commitlint/prompt-cli", "npm:13.1.0"],
             ["@fxd-dev-util/eslint-config-base", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0::__archiveUrl=https%3A%2F%2Fgit.fxdigital.uk%2Fapi%2Fv4%2Fprojects%2F13%2Fpackages%2Fnpm%2F%40fxd-dev-util%2Feslint-config-base%2F-%2F%40fxd-dev-util%2Feslint-config-base-1.0.0.tgz"],
-            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.4"],
+            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.5"],
             ["@nestjs/config", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.1"],
             ["@nestjs/schedule", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0"],
             ["@types/cron", "npm:1.7.3"],
@@ -1697,17 +1697,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@nestjs/common", [
-        ["npm:8.0.4", {
-          "packageLocation": "./.yarn/cache/@nestjs-common-npm-8.0.4-10b8f4934b-4599d08df9.zip/node_modules/@nestjs/common/",
+        ["npm:8.0.5", {
+          "packageLocation": "./.yarn/cache/@nestjs-common-npm-8.0.5-f9065f4915-a8a780eabf.zip/node_modules/@nestjs/common/",
           "packageDependencies": [
-            ["@nestjs/common", "npm:8.0.4"]
+            ["@nestjs/common", "npm:8.0.5"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.4", {
-          "packageLocation": "./.yarn/$$virtual/@nestjs-common-virtual-b7d17400d7/0/cache/@nestjs-common-npm-8.0.4-10b8f4934b-4599d08df9.zip/node_modules/@nestjs/common/",
+        ["virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.5", {
+          "packageLocation": "./.yarn/$$virtual/@nestjs-common-virtual-172b159134/0/cache/@nestjs-common-npm-8.0.5-f9065f4915-a8a780eabf.zip/node_modules/@nestjs/common/",
           "packageDependencies": [
-            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.4"],
+            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.5"],
             ["@types/cache-manager", null],
             ["@types/class-transformer", null],
             ["@types/class-validator", null],
@@ -1750,7 +1750,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@nestjs-config-virtual-49de9d2d62/0/cache/@nestjs-config-npm-1.0.1-bb20641dbb-a3d1916e4d.zip/node_modules/@nestjs/config/",
           "packageDependencies": [
             ["@nestjs/config", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.1"],
-            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.4"],
+            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.5"],
             ["@types/nestjs__common", null],
             ["@types/reflect-metadata", null],
             ["@types/rxjs", null],
@@ -1786,7 +1786,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@nestjs-schedule-virtual-014526eb56/0/cache/@nestjs-schedule-npm-1.0.0-867cda5af7-fb02011790.zip/node_modules/@nestjs/schedule/",
           "packageDependencies": [
             ["@nestjs/schedule", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0"],
-            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.4"],
+            ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.5"],
             ["@types/nestjs__common", null],
             ["@types/reflect-metadata", null],
             ["cron", "npm:1.7.2"],
