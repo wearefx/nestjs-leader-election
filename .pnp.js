@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fxd-dev-util/eslint-config-base", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0::__archiveUrl=https%3A%2F%2Fgit.fxdigital.uk%2Fapi%2Fv4%2Fprojects%2F13%2Fpackages%2Fnpm%2F%40fxd-dev-util%2Feslint-config-base%2F-%2F%40fxd-dev-util%2Feslint-config-base-1.0.0.tgz"],
             ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.5"],
             ["@nestjs/config", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.1"],
-            ["@nestjs/schedule", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0"],
+            ["@nestjs/schedule", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.1"],
             ["@types/cron", "npm:1.7.3"],
             ["@types/jest", "npm:26.0.24"],
             ["@types/node", "npm:16.3.3"],
@@ -1386,7 +1386,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fxd-dev-util/eslint-config-base", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0::__archiveUrl=https%3A%2F%2Fgit.fxdigital.uk%2Fapi%2Fv4%2Fprojects%2F13%2Fpackages%2Fnpm%2F%40fxd-dev-util%2Feslint-config-base%2F-%2F%40fxd-dev-util%2Feslint-config-base-1.0.0.tgz"],
             ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.5"],
             ["@nestjs/config", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.1"],
-            ["@nestjs/schedule", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0"],
+            ["@nestjs/schedule", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.1"],
             ["@types/cron", "npm:1.7.3"],
             ["@types/jest", "npm:26.0.24"],
             ["@types/node", "npm:16.3.3"],
@@ -1775,19 +1775,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@nestjs/schedule", [
-        ["npm:1.0.0", {
-          "packageLocation": "./.yarn/cache/@nestjs-schedule-npm-1.0.0-867cda5af7-fb02011790.zip/node_modules/@nestjs/schedule/",
+        ["npm:1.0.1", {
+          "packageLocation": "./.yarn/cache/@nestjs-schedule-npm-1.0.1-ab1808e6a2-e1b4eea1a3.zip/node_modules/@nestjs/schedule/",
           "packageDependencies": [
-            ["@nestjs/schedule", "npm:1.0.0"]
+            ["@nestjs/schedule", "npm:1.0.1"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0", {
-          "packageLocation": "./.yarn/$$virtual/@nestjs-schedule-virtual-014526eb56/0/cache/@nestjs-schedule-npm-1.0.0-867cda5af7-fb02011790.zip/node_modules/@nestjs/schedule/",
+        ["virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.1", {
+          "packageLocation": "./.yarn/$$virtual/@nestjs-schedule-virtual-8739ce2ef3/0/cache/@nestjs-schedule-npm-1.0.1-ab1808e6a2-e1b4eea1a3.zip/node_modules/@nestjs/schedule/",
           "packageDependencies": [
-            ["@nestjs/schedule", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.0"],
+            ["@nestjs/schedule", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.1"],
             ["@nestjs/common", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:8.0.5"],
+            ["@nestjs/core", null],
             ["@types/nestjs__common", null],
+            ["@types/nestjs__core", null],
             ["@types/reflect-metadata", null],
             ["cron", "npm:1.7.2"],
             ["reflect-metadata", null],
@@ -1795,7 +1797,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "packagePeers": [
             "@nestjs/common",
+            "@nestjs/core",
             "@types/nestjs__common",
+            "@types/nestjs__core",
             "@types/reflect-metadata",
             "reflect-metadata"
           ],
