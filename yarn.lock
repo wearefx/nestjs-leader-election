@@ -912,7 +912,7 @@ __metadata:
     "@commitlint/config-conventional": 13.1.0
     "@commitlint/prompt-cli": 13.1.0
     "@fxd-dev-util/eslint-config-base": 1.0.0
-    "@nestjs/common": 8.0.5
+    "@nestjs/common": 8.0.6
     "@nestjs/config": 1.0.1
     "@nestjs/schedule": 1.0.1
     "@types/cron": 1.7.3
@@ -1191,9 +1191,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/common@npm:8.0.5":
-  version: 8.0.5
-  resolution: "@nestjs/common@npm:8.0.5"
+"@nestjs/common@npm:8.0.6":
+  version: 8.0.6
+  resolution: "@nestjs/common@npm:8.0.6"
   dependencies:
     axios: 0.21.1
     iterare: 1.2.1
@@ -1212,7 +1212,7 @@ __metadata:
       optional: true
     class-validator:
       optional: true
-  checksum: a8a780eabf22af2dfb07b446c5d86bdf247755e024f1890d4ea8846905977969ace67840ce9fe646be871647204793463fe97358674de75422af56f37a3ad1df
+  checksum: 5889cdc8761fc3b129f202db06740e3a28fe282eaafba7ea76c44755538fb52eddd7d23a3947bd9bcdd01511de576965ff7a7b4d5d336a76971c7af9a6aa8900
   languageName: node
   linkType: hard
 
