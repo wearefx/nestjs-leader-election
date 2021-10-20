@@ -927,7 +927,7 @@ __metadata:
     eslint-plugin-eslint-comments: 3.2.0
     eslint-plugin-import: 2.24.2
     eslint-plugin-promise: 5.1.0
-    handy-redis: 2.2.2
+    handy-redis: 2.3.1
     husky: 4.3.8
     jest: 27.1.1
     lint-staged: 11.1.2
@@ -3636,12 +3636,12 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"handy-redis@npm:2.2.2":
-  version: 2.2.2
-  resolution: "handy-redis@npm:2.2.2"
+"handy-redis@npm:2.3.1":
+  version: 2.3.1
+  resolution: "handy-redis@npm:2.3.1"
   dependencies:
     "@types/redis": ^2.8.30
-  checksum: 43501923d4173d77ec3713ef0301955e880df37d2d290ea213f868fdfeffef35c345716a1a0ff6617f643e861c0b902e862563535982e68cb061d3a45ad138d9
+  checksum: 52b8fffd39c4a2da5ed5951dc6b69602b130a4af9e1907ad77e4545c5c5e0c3add95b23b8e28035aff3a680cb97242fdc267046d4e83ac53a07952024f97e373
   languageName: node
   linkType: hard
 
