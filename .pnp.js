@@ -45,7 +45,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nestjs/config", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.1"],
             ["@nestjs/schedule", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.1"],
             ["@types/cron", "npm:1.7.3"],
-            ["@types/jest", "npm:27.0.1"],
+            ["@types/jest", "npm:27.0.2"],
             ["@types/node", "npm:16.3.3"],
             ["@types/prettier", "npm:2.3.2"],
             ["@types/uuid", "npm:8.3.1"],
@@ -1388,7 +1388,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nestjs/config", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.1"],
             ["@nestjs/schedule", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:1.0.1"],
             ["@types/cron", "npm:1.7.3"],
-            ["@types/jest", "npm:27.0.1"],
+            ["@types/jest", "npm:27.0.2"],
             ["@types/node", "npm:16.3.3"],
             ["@types/prettier", "npm:2.3.2"],
             ["@types/uuid", "npm:8.3.1"],
@@ -1974,10 +1974,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/jest", [
-        ["npm:27.0.1", {
-          "packageLocation": "./.yarn/cache/@types-jest-npm-27.0.1-a860f5c797-5f2382b580.zip/node_modules/@types/jest/",
+        ["npm:27.0.2", {
+          "packageLocation": "./.yarn/cache/@types-jest-npm-27.0.2-f9ba43c7f9-0dca387566.zip/node_modules/@types/jest/",
           "packageDependencies": [
-            ["@types/jest", "npm:27.0.1"],
+            ["@types/jest", "npm:27.0.2"],
             ["jest-diff", "npm:27.0.6"],
             ["pretty-format", "npm:27.0.6"]
           ],
@@ -8416,7 +8416,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", null],
             ["@types/babel-jest", null],
             ["@types/babel__core", null],
-            ["@types/jest", "npm:27.0.1"],
+            ["@types/jest", "npm:27.0.2"],
             ["@types/types__jest", null],
             ["@types/typescript", null],
             ["babel-jest", null],
