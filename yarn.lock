@@ -913,7 +913,7 @@ __metadata:
     "@commitlint/prompt-cli": 13.1.0
     "@fxd-dev-util/eslint-config-base": 1.0.0
     "@nestjs/common": 8.0.6
-    "@nestjs/config": 1.0.1
+    "@nestjs/config": 1.2.1
     "@nestjs/schedule": 1.0.1
     "@types/cron": 1.7.3
     "@types/jest": 27.0.1
@@ -1216,21 +1216,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/config@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@nestjs/config@npm:1.0.1"
+"@nestjs/config@npm:1.2.1":
+  version: 1.2.1
+  resolution: "@nestjs/config@npm:1.2.1"
   dependencies:
-    dotenv: 10.0.0
+    dotenv: 16.0.0
     dotenv-expand: 5.1.0
-    lodash.get: 4.4.2
-    lodash.has: 4.5.2
-    lodash.set: 4.3.2
+    lodash: 4.17.21
     uuid: 8.3.2
   peerDependencies:
     "@nestjs/common": ^7.0.0 || ^8.0.0
     reflect-metadata: ^0.1.13
     rxjs: ^6.0.0 || ^7.2.0
-  checksum: a3d1916e4d0190fa39e17c344a1fa483200590983e47734d355ab6c030f400814153c23f5f07f24f73921dcdc66e1e47fed8ee51da4e09de4aefb905e5caf02a
+  checksum: 581417aed788e750646ab87f6663cf44b15fbb76c459f5239d41a807d55c19716ea1422ffb7d67b12151c389af7e5ca098eaa8ebbe0700b28f396f0aa12a6177
   languageName: node
   linkType: hard
 
@@ -2744,10 +2742,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:10.0.0":
-  version: 10.0.0
-  resolution: "dotenv@npm:10.0.0"
-  checksum: 9c45712e213de63bdb646b8e5344749b7566e25a67bbd3f03711d54e40eff10066c1f23eff0081d0949fda7c8efcc6e9e8bf18d0f023a8274f55f5d5f97bb6db
+"dotenv@npm:16.0.0":
+  version: 16.0.0
+  resolution: "dotenv@npm:16.0.0"
+  checksum: 70186d98404e20a911623723800f7721253a3091190b8b1b65cad942e709b81e17f3c83042772de3ba598c1c05f9087c12358758a32441b83060789ab63f9a6c
   languageName: node
   linkType: hard
 
@@ -5093,31 +5091,10 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"lodash.get@npm:4.4.2":
-  version: 4.4.2
-  resolution: "lodash.get@npm:4.4.2"
-  checksum: 447e575e3caa5131ef44e5a0c135b1614f3c937d86b3be0568f9da7b0fd015010af3b6b4e41edf6e2698c9ce2dcc061ca71b31f274f799c991dceb018be16e4f
-  languageName: node
-  linkType: hard
-
-"lodash.has@npm:4.5.2":
-  version: 4.5.2
-  resolution: "lodash.has@npm:4.5.2"
-  checksum: ed2cbed6f3f06fe2ae0a604464208a758197624810e58c4928de3ab9a00d2ac736ade10f49b6ea77f96c702f9d104189a57a7af0bfa1725e8554524aa9466f41
-  languageName: node
-  linkType: hard
-
 "lodash.merge@npm:^4.6.2":
   version: 4.6.2
   resolution: "lodash.merge@npm:4.6.2"
   checksum: 4e2bb42a87a148991458d7c384bc197e96f7115e9536fc8e2c86ae9e99ce1c1f693ff15eb85761952535f48d72253aed8e673d9f32dde3e671cd91e3fde220a7
-  languageName: node
-  linkType: hard
-
-"lodash.set@npm:4.3.2":
-  version: 4.3.2
-  resolution: "lodash.set@npm:4.3.2"
-  checksum: 4dfedacae1c1cf86385a2b6e30ba538f06c90d703a0abd83a11432d80ec24b4016fe27359cdc0554a02a31a468789cbb282801dd755e54581cf0295477e2341d
   languageName: node
   linkType: hard
 
@@ -5135,7 +5112,7 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"lodash@npm:4.x, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.5.1, lodash@npm:^4.7.0":
+"lodash@npm:4.17.21, lodash@npm:4.x, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.5.1, lodash@npm:^4.7.0":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: 4983720b9abca930a4a46f18db163d7dad8dd00dbed6db0cc7b499b33b717cce69f80928b27bbb1ff2cbd3b19d251ee90669a8b5ea466072ca81c2ebe91e7468
