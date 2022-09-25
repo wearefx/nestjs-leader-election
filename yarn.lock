@@ -933,7 +933,7 @@ __metadata:
     lint-staged: 11.1.2
     prettier: 2.4.0
     rxjs: 7.3.0
-    ts-jest: 27.0.5
+    ts-jest: 27.1.5
     typescript: 4.3.5
     uuid: 8.3.2
   languageName: unknown
@@ -5107,6 +5107,13 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
+"lodash.memoize@npm:4.x":
+  version: 4.1.2
+  resolution: "lodash.memoize@npm:4.1.2"
+  checksum: 080c1095b7795b293a06078737550dc0c8138192cadbafb4e4b1303357d367ac589a1a570fad8de154175b008ca7b2b48d6a7f1755a143e13b764e20a7104080
+  languageName: node
+  linkType: hard
+
 "lodash.merge@npm:^4.6.2":
   version: 4.6.2
   resolution: "lodash.merge@npm:4.6.2"
@@ -5135,17 +5142,17 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"lodash@npm:4.x, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.5.1, lodash@npm:^4.7.0":
-  version: 4.17.21
-  resolution: "lodash@npm:4.17.21"
-  checksum: 4983720b9abca930a4a46f18db163d7dad8dd00dbed6db0cc7b499b33b717cce69f80928b27bbb1ff2cbd3b19d251ee90669a8b5ea466072ca81c2ebe91e7468
-  languageName: node
-  linkType: hard
-
 "lodash@npm:^3.3.1":
   version: 3.10.1
   resolution: "lodash@npm:3.10.1"
   checksum: 0d90e79ce058c8d3e12a027a9fe7bc26107ec5c674c66bfe28c68931c12b7de2a5366477bd639adbf0e60407df3a259b77123c440e1fd2cec09ad1423b574a64
+  languageName: node
+  linkType: hard
+
+"lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.5.1, lodash@npm:^4.7.0":
+  version: 4.17.21
+  resolution: "lodash@npm:4.17.21"
+  checksum: 4983720b9abca930a4a46f18db163d7dad8dd00dbed6db0cc7b499b33b717cce69f80928b27bbb1ff2cbd3b19d251ee90669a8b5ea466072ca81c2ebe91e7468
   languageName: node
   linkType: hard
 
@@ -6980,15 +6987,15 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:27.0.5":
-  version: 27.0.5
-  resolution: "ts-jest@npm:27.0.5"
+"ts-jest@npm:27.1.5":
+  version: 27.1.5
+  resolution: "ts-jest@npm:27.1.5"
   dependencies:
     bs-logger: 0.x
     fast-json-stable-stringify: 2.x
     jest-util: ^27.0.0
     json5: 2.x
-    lodash: 4.x
+    lodash.memoize: 4.x
     make-error: 1.x
     semver: 7.x
     yargs-parser: 20.x
@@ -7005,9 +7012,11 @@ fsevents@^2.3.2:
       optional: true
     babel-jest:
       optional: true
+    esbuild:
+      optional: true
   bin:
     ts-jest: cli.js
-  checksum: 0f7479a6c967f192d9be8bf8ac75498f41cc03964ed7fa6f3ae826080bf8ddb1e2f1e59cda34342a99c44c2fff4b7350019dd4f963fa059af694de4196054576
+  checksum: e5026ec46afb9fe0ff6fe44335f64fd600c7001f3cf5f7eafc9259db481f40178bc66b29c7d4a0c1a7d14ccb4ec503b06040828bc97f7f3d38d987173a48c188
   languageName: node
   linkType: hard
 
