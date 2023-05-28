@@ -932,7 +932,7 @@ __metadata:
     jest: 27.1.1
     lint-staged: 11.1.2
     prettier: 2.4.0
-    rxjs: 7.3.0
+    rxjs: 7.8.1
     ts-jest: 27.0.5
     typescript: 4.3.5
     uuid: 8.3.2
@@ -6326,12 +6326,12 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"rxjs@npm:7.3.0":
-  version: 7.3.0
-  resolution: "rxjs@npm:7.3.0"
+"rxjs@npm:7.8.1":
+  version: 7.8.1
+  resolution: "rxjs@npm:7.8.1"
   dependencies:
-    tslib: ~2.1.0
-  checksum: 148b28cdc6701e5d5011079523d1f2475c82b94b6945654b5045050dd4b2e1290de26f53e8e253a9392b57d08ba7b83d97b141bb25bec124c202cd0c24f9d1e5
+    tslib: ^2.1.0
+  checksum: 2fa018ffa53e08a26fe925da030fac2c98c077c6508ec3aac4b73426bba5e41f6d268d8f04712ce65da373d1dc6b20a604790489e79b0efde17c7a838ffe7aa4
   languageName: node
   linkType: hard
 
@@ -7037,10 +7037,10 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"tslib@npm:~2.1.0":
-  version: 2.1.0
-  resolution: "tslib@npm:2.1.0"
-  checksum: d8f5bdd067611651c6b846c2388f4dc8ba1f5af124e66105f5263d1ad56da17f4b8c6566887ca2f205c5a9758451871ceca87d5d06087af2dca1699c5e33db69
+"tslib@npm:^2.1.0":
+  version: 2.5.2
+  resolution: "tslib@npm:2.5.2"
+  checksum: 32bda7026fbb97e742f2cc67c10e516a3406f33e4437c8c10efc76fe9dcb50b6f4ffdc0923e1aa53a9f686d5d5b84bfac2eec210cba975f34e1707f4e46ea413
   languageName: node
   linkType: hard
 
