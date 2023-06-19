@@ -61,7 +61,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:27.1.1"],
             ["lint-staged", "npm:11.1.2"],
             ["prettier", "npm:2.4.0"],
-            ["rxjs", "npm:7.3.0"],
+            ["rxjs", "npm:7.8.1"],
             ["ts-jest", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:27.0.5"],
             ["typescript", "patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"],
             ["uuid", "npm:8.3.2"]
@@ -1404,7 +1404,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:27.1.1"],
             ["lint-staged", "npm:11.1.2"],
             ["prettier", "npm:2.4.0"],
-            ["rxjs", "npm:7.3.0"],
+            ["rxjs", "npm:7.8.1"],
             ["ts-jest", "virtual:298ab5097e7596de2a73609aebad3feb569fb525b4628b821b4f0e4d3da44d010fc5c56c336e98e2647544fcc61430c85fda06542dfde90e4e0359f8382c9baa#npm:27.0.5"],
             ["typescript", "patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"],
             ["uuid", "npm:8.3.2"]
@@ -1719,7 +1719,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["class-validator", null],
             ["iterare", "npm:1.2.1"],
             ["reflect-metadata", null],
-            ["rxjs", "npm:7.3.0"],
+            ["rxjs", "npm:7.8.1"],
             ["tslib", "npm:2.3.0"],
             ["uuid", "npm:8.3.2"]
           ],
@@ -1760,7 +1760,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lodash.has", "npm:4.5.2"],
             ["lodash.set", "npm:4.3.2"],
             ["reflect-metadata", null],
-            ["rxjs", "npm:7.3.0"],
+            ["rxjs", "npm:7.8.1"],
             ["uuid", "npm:8.3.2"]
           ],
           "packagePeers": [
@@ -7699,11 +7699,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:7.3.0", {
-          "packageLocation": "./.yarn/cache/rxjs-npm-7.3.0-8a14d1c3d9-148b28cdc6.zip/node_modules/rxjs/",
+        ["npm:7.8.1", {
+          "packageLocation": "./.yarn/cache/rxjs-npm-7.8.1-41c443a75b-2fa018ffa5.zip/node_modules/rxjs/",
           "packageDependencies": [
-            ["rxjs", "npm:7.3.0"],
-            ["tslib", "npm:2.1.0"]
+            ["rxjs", "npm:7.8.1"],
+            ["tslib", "npm:2.5.2"]
           ],
           "linkType": "HARD",
         }]
@@ -8466,17 +8466,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:2.1.0", {
-          "packageLocation": "./.yarn/cache/tslib-npm-2.1.0-81c9ac9b82-d8f5bdd067.zip/node_modules/tslib/",
-          "packageDependencies": [
-            ["tslib", "npm:2.1.0"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:2.3.0", {
           "packageLocation": "./.yarn/cache/tslib-npm-2.3.0-277e75e108-7b4fc9feff.zip/node_modules/tslib/",
           "packageDependencies": [
             ["tslib", "npm:2.3.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:2.5.2", {
+          "packageLocation": "./.yarn/cache/tslib-npm-2.5.2-3f1b58afbb-32bda7026f.zip/node_modules/tslib/",
+          "packageDependencies": [
+            ["tslib", "npm:2.5.2"]
           ],
           "linkType": "HARD",
         }]
