@@ -76,9 +76,9 @@
     "uuid": "8.3.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "13.1.0",
-    "@commitlint/config-conventional": "13.1.0",
-    "@commitlint/prompt-cli": "13.1.0",
+    "@commitlint/cli": "19.5.0",
+    "@commitlint/config-conventional": "19.5.0",
+    "@commitlint/prompt-cli": "19.5.0",
     "@fxd-dev-util/eslint-config-base": "1.0.0",
     "@types/cron": "1.7.3",
     "@types/jest": "27.0.1",
